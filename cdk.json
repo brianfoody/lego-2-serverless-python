@@ -1,0 +1,3 @@
+{
+  "app": "rm -rf dist cdk.out; mkdir -p dist/python; cp -R .env/lib dist/python; find ./dist -depth -type d \\( -name 'aws_cdk*' -o -name 'boto*' \\) -prune -exec rm -rf {} +; python3 app.py"
+}
