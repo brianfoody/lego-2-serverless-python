@@ -14,8 +14,6 @@ source .env/bin/activate
 
 pip install -r requirements.txt
 
-# To bundle your external deps
-
 # To add packages
 
 `pip install requests aws-cdk.aws_events aws-cdk.aws_events_targets`
